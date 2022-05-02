@@ -1,0 +1,122 @@
+body {
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Shizuru', cursive;
+    font-family: 'Work Sans', sans-ser;
+}
+:root {
+    --main-color: rgba(218, 165, 32, 0.903);
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {
+    background-color: #161719;
+    width: 100%;
+}
+.container {
+    width: 800px;
+    padding: 0 15 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 ;
+
+}
+.logo h2 {
+    color: #BB4A4A;
+    font-weight: 800;
+}
+header .container .links {
+    margin-left: 15px;
+}
+header .container .links a {
+    text-decoration: none;
+    color: #98989A;
+    font-size: 19px;
+    transition: 0.5s ease;
+}
+header .container .links a:hover {
+    color: #55C651;
+}
+header .container .links li {
+    display: inline-block;
+    padding-left: 10px;
+}
+section {
+    background-image: url(../images/pyramid.jpg);
+    background-size: cover;
+    background-position: center;
+    height:calc(100vh - 98px);
+    position: relative;
+}
+section .intro-text {
+   position: absolute;
+   top: 20%;
+   left: 10%;
+}
+section .intro-text h3 {
+    text-transform: uppercase;
+    color: #BB4A4A;
+    font-size: 50px;
+}
+section .intro-text span {
+    color:#FFDB60;
+}
+section .intro-text h3+p {
+    color: #f9f9f9;
+    font-size: 23px;
+}
+.sign-in {
+    position: absolute;
+    width: 400px;
+    min-height: 300px;
+    background-color: #161719;
+    left: calc(100% - 500px);
+    top: 100px;
+}
+.sign-in .log {
+    color: #BB4A4A;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-weight: 500;
+    background-color: #161719;
+    font-size: 1.5em;
+    padding: 8px;
+    border-radius: 8px;
+}
+.sign-in input {
+    padding: 5px;
+    margin: 15px;
+    transition: 0.3s;
+}
+.sign-in input:focus {
+    background-color: #161719;
+    color: #f9f9f9;
+}
+.sign-in .submit {
+    width: 80%;
+    padding: 10px;
+    margin: 15px 0 0 30px;
+    background-color: #BB4A4A;
+    font-weight: 500;
+    border-radius: 8px;
+}
+.sign-in .sign-up {
+   color: #f9f9f9;
+   text-align: center;
+}
+.sign-in .sign-up a {
+    color: #BB4A4A;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.sign-in .sign-up a:hover {
+    color: #55C651;
+}
